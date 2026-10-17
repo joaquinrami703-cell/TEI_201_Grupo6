@@ -7,15 +7,15 @@
   - Nicolas Torres - Miembro
   
 - **ODS Seleccionado:** [ODS15: Vida de ecosistemas terrestres]
-- **Problema a resolver:** [Descripción breve]
+- **Problema a resolver:** [El conejo europeo es considerado una especie exótica invasora en Chile. Su presencia en grandes cantidades puede generar impactos tanto en terrenos agrícolas como en el entorno, debido principalmente al consumo de vegetación y a su rápida expansión.]
 
 ### Descripción del Proyecto
-[Breve descripción de la solución IoT propuesta]
+[Nuestro proyecto busca aportar a esta problemática mediante una alternativa de control no letal, orientada a detectar la presencia de conejos y alejarlos de las zonas cultivadas utilizando agua. De esta forma, se busca proteger las plantaciones de los agricultores del Choapa y, al mismo tiempo, evitar métodos que provoquen daño directo a los animales.]
 
 ### Estado del Proyecto
 - **Versión actual:** v3.0
-- **Última actualización:** [Fecha]
-- **Estado:** Prototipo final
+- **Última actualización:** [19 de Octubre 2026]
+- **Estado:** Prototipo V1
 
 ---
 
