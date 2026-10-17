@@ -1,11 +1,12 @@
 ### Información del Equipo
 - **Integrantes:**
-  - Nombre 1 - Rol 1
-  - Nombre 2 - Rol 2
-  - Nombre 3 - Rol 3
-  - Nombre 4 - Rol 4
+  - Vanesa  Arévalo - Representante
+  - Isidora Gonzalez- Miembro
+  - Francisca Mardones - Miembro
+  - Joaquin Ramírez - Miembro
+  - Nicolas Torres - Miembro
   
-- **ODS Seleccionado:** [Número y nombre]
+- **ODS Seleccionado:** [ODS15: Vida de ecosistemas terrestres]
 - **Problema a resolver:** [Descripción breve]
 
 ### Descripción del Proyecto
