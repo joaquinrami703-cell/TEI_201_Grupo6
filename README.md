@@ -12,6 +12,15 @@
 ### Descripción del Proyecto
 [Nuestro proyecto busca aportar a esta problemática mediante una alternativa de control no letal, orientada a detectar la presencia de conejos y alejarlos de las zonas cultivadas utilizando agua. De esta forma, se busca proteger las plantaciones de los agricultores del Choapa y, al mismo tiempo, evitar métodos que provoquen daño directo a los animales.]
 
+
+
+### 📐 Arquitectura de Hardware
+- **Cerebro del Sistema:** Raspberry Pi 3 B+
+- **Detección de Movimiento:** Sensor PIR HC-SR501
+- **Confirmación de Cercanía:** Sensor Ultrasónico HC-SR04
+- **Actuador:** LED indicador (simulador de relé / bomba de agua)
+- **Protección de Circuito:** Divisor de voltaje ($5\text{ V} \rightarrow 3.3\text{ V}$) en el pin Echo del sensor ultrasónico y resistencia de $220\,\Omega$ para el actuador.
+
 ### Estado del Proyecto
 - **Versión actual:** v3.0
 - **Última actualización:** [19 de Octubre 2026]
