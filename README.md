@@ -63,30 +63,39 @@
 ##  Checklist de Entrega
 
 ### Hardware ✓
-- [ ] Esquema del circuito (Fritzing/Wokwi)
-- [ ] BOM completo
-- [ ] Fotos de alta resolución
+- [ ] Esquema eléctrico de Raspberry Pi, sensores y actuadores.
+- [ ] Lista de materiales (BOM) con cantidades y especificaciones.
+- [ ] Fotografías del prototipo ensamblado.
+- [ ] Documentación de alimentación y conexiones GPIO.
 
 ### Software ✓
-- [ ] Código comentado
-- [ ] Librerías documentadas
-- [ ] Manual de instalación
+- [ ] Código Python comentado y subido a softwar/.
+- [ ] Librerías y dependencias documentadas.
+- [ ] Instrucciones de instalación y ejecución.
+- [ ] Dashboard Flask documentado, si está implementado.
+- [ ] Código probado en la Raspberry Pi.
 
 ### Diseño 3D ✓
-- [ ] Archivos Fusion 360 (.f3d) con TODOS los componentes
-- [ ] Renders de alta calidad (1+ ángulos)
-- [ ] Planos técnicos
+- [ ] Archivos originales de Fusion 360 (.f3d), si se utilizó.
+- [ ] Renders del diseño desde distintos ángulos.
+- [ ] Planos técnicos y dimensiones.
+- [ ] Estado de fabricación y montaje documentado.
 
 ### Testing ✓
-- [ ] Reporte de testing con usuarios (mín. 5)
+- [ ] Plan de pruebas.
 - [ ] Evidencias fotográficas/videos
-- [ ] Datos cuantitativos
+- [ ] Resultados reales de las pruebas de sensores y actuadores.
+- [ ] Registro de errores y mejoras.
+- [ ] Pruebas con usuarios, según los requisitos del curso.
 
 ### Documentación ✓
-- [ ] Reporte final (máx. 15 páginas)
-- [ ] Presentación (10 min)
+- [ ] README principal actualizado.
+- [ ] README de hardware y software actualizados.
+- [ ] Informe final y presentación.
+- [ ] Referencias técnicas y fichas de los componentes.
+- [ ] Limitaciones y trabajos pendientes documentados.
 
----
+
 
 
 ---
