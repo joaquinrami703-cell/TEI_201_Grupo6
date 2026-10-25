@@ -20,9 +20,11 @@
 - **Confirmación de Cercanía:** Sensor Ultrasónico HC-SR04
 - **Actuador:** LED indicador (simulador de relé / bomba de agua)
 - **Protección de Circuito:** Divisor de voltaje ($5\text{ V} \rightarrow 3.3\text{ V}$) en el pin Echo del sensor ultrasónico y resistencia de $220\,\Omega$ para el actuador.
+- **Montaje:** Photoboard y cables jumper.
+- **Alimentación:** Batería externa de 20.000 mAh
 
 ### Estado del Proyecto
-- **Versión actual:** v3.0
+- **Versión:** Avance 2 — Prototipo Alpha IoT. V3
 - **Última actualización:** [19 de Octubre 2026]
 - **Estado:** Prototipo V1
 
@@ -30,12 +32,12 @@
 
 ##  Estructura del Repositorio
 ```
-├── hardware/          # Circuitos, esquemas y BOM
-├── software/          # Código Arduino y librerías
+├── hardware/          # Circuitos, esquemas, conexiones y lista de materiales.
+├── software/          # Código Python, librerías y dashboard web.
 ├── diseno_3d/        # Modelos Fusion 360 y renders
-├── testing/          # Validación con usuarios
-├── documentacion/    # Reportes y presentación
-└── iteraciones/      # Historial de versiones
+├── testing/          # Plan de pruebas, resultados y evidencias.
+├── documentacion/    # Informes, presentaciones y manuales.
+└── iteraciones/      # Historial de cambios y mejoras del prototipo.
 ```
 
 ---
@@ -43,15 +45,18 @@
 ##  Inicio Rápido
 
 ### Requisitos Previos
-- Arduino IDE 2.x
-- Fusion 360
-- [Otras herramientas necesarias]
+-Raspberry Pi 3 B+.
+-Python 3.
+-GPIO Zero.
+-Flask.
+-Sensores PIR HC-SR501 y ultrasónico HC-SR04.
 
 ### Instalación
-1. Clonar el repositorio
-2. Instalar librerías (ver `software/librerias/`)
-3. Cargar código en ESP32/Arduino
-4. [Pasos adicionales]
+1. Clonar el repositorio.
+2. Revisar las dependencias documentadas en software/.
+3. Conectar los sensores según el esquema de hardware/.
+4. Ejecutar el programa principal de Python en la Raspberry Pi.
+5. Si el dashboard está implementado, acceder desde un dispositivo conectado a la misma red Wi-Fi utilizando la dirección y el puerto configurados.
 
 ---
 
