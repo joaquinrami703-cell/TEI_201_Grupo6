@@ -14,7 +14,7 @@
 
 
 
-### 📐 Arquitectura de Hardware
+### Arquitectura de Hardware
 - **Cerebro del Sistema:** Raspberry Pi 3 B+
 - **Detección de Movimiento:** Sensor PIR HC-SR501
 - **Confirmación de Cercanía:** Sensor Ultrasónico HC-SR04
