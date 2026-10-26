@@ -1,6 +1,6 @@
 ### Información del Equipo
 - **Integrantes:**
-  - Vanesa  Arévalo - Representante
+  - Vanessa  Arévalo - Representante
   - Isidora Gonzalez- Miembro
   - Francisca Mardones - Miembro
   - Joaquin Ramírez - Miembro
