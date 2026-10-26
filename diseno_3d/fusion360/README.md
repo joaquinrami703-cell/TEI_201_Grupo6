@@ -1,60 +1,30 @@
-# Archivos Fusion 360
+#  Archivos Fusion 360 (Diseño 3D y Encapsulado)
 
-## Archivos Requeridos
+Actualmente, los modelos 3D del encapsulado y componentes se presentan como **piezas independientes** para la evaluación del Avance #2. 
 
-### `modelo_completo_v3.f3d`
-Archivo principal con **historial de cambios completo**
-
-**DEBE INCLUIR:**
--  Todos los componentes modelados
--  Ensamble completo funcional
--  Historial de diseño (timeline)
--  Materiales asignados
--  Constraints y relaciones
+> **Nota de Iteración y Mejora Continua (Avance #3):**  
+> En la evaluación presencial del Avance #2 se identificó la necesidad de integrar un **ensamble completo con restricciones físicas (*Joints*) y árbol de componentes unificado**. Siguiendo la retroalimentación del docente, la versión actual contiene las piezas por separado, mientras que para el **Avance #3** se entregará el archivo `.f3d` unificado con el ensamble final, historial de timeline y restricciones de movimiento (torreta giratoria).
 
 ---
 
-## Estructura del Modelo
+##  Archivos Disponibles (Avance #2)
 
-### Componentes (Components)
-```
-Ensamble_Principal
-├── Encapsulado_Inferior
-├── Encapsulado_Superior
-├── ESP32_DevKit
-├── Sensor_DHT22
-├── LED_Indicador
-├── Soporte_Bateria
-├── Bracket_Montaje
-└── Tornilleria
-```
+En la carpeta [`/diseno_3d`](./diseno_3d/) se encuentran los modelos individuales del diseño conceptual:
 
-### Uniones (Joints)
-Documentar las juntas principales y sus restricciones
-
-### Parámetros
-Listar parámetros principales utilizados:
-- `ancho_total = 120mm`
-- `alto_total = 80mm`
-- `grosor_pared = 2mm`
+1. **`base_fija.f3d` / `.stl`:** Base principal de $13.2 \times 13.2 \times 20.3\text{ cm}$. Aloja la Raspberry Pi 3 B+, la protoboard y el circuito de alimentación.
+2. **`torreta_giratoria.f3d` / `.stl`:** Torreta superior de $5.9 \times 8.1 \times 8.8\text{ cm}$. Alberga los sensores (PIR y Ultrasónico) y el brazo/boquilla con espacio para servomotor.
 
 ---
 
-## Instrucciones de Apertura
+##  Estructura Proyectada para Ensamble Final (Avance #3)
 
-1. Abrir Fusion 360
-2. File > Open > Seleccionar archivo `.f3d`
-3. Verificar que todas las referencias están cargadas
-4. Revisar timeline para ver historial
-
----
-
-## Versiones
-
-| Versión | Fecha | Cambios Principales |
-|---------|-------|---------------------|
-| v3.0 | [Fecha] | Versión final para Avance #3 |
-| v2.1 | [Fecha] | Ajustes post Avance #2 |
-| v1.0 | [Fecha] | Primera versión funcional |
-
----
+### Árbol de Componentes
+```text
+Agrosafe_Ensamble_Completo
+├── Base_Inferior_Chasis
+├── Tapa_Removible_Mantenimiento
+├── Torreta_Giratoria_Sensores
+├── Raspberry_Pi_3B_DevBoard
+├── Sensor_PIR_HC-SR501
+├── Sensor_Ultrasonico_HC-SR04
+└── Tornilleria_y_Soportes
